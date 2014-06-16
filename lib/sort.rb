@@ -1,7 +1,5 @@
 class Array
-
   def radix_sort
-    return self if self.size < 2
     arr = self
     pass = 1
     largest = arr.max_by(&:magnitude)
